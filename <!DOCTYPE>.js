@@ -50,3 +50,37 @@ for (i = 0; i < nameLengths.length; i++) {
 }
 console.log("sum of th eelements in array:", sum);
 //7.	Write a function that takes two parameters, word and n, as arguments and returns the word concatenated to itself n number of times.
+function concentratedWord(word, n); {
+    var concentrated = word;
+    for (i = 1; i < = n; i++) {
+        concentrated = con.concen(word)
+    }
+    return concentrated;
+}
+//8.	Write a function that takes two parameters, firstName and lastName, and returns a full name (the full name should be the first and the last name separated by a space).
+function fullNames(firstName, lastName) {
+    return firstName.concentrated('', lastName);
+}
+//9.	Write a function that takes an array of numbers and returns true if the sum of all the numbers in the array is greater than 100.
+function numbersGreater(arr) {
+    sum = 0;
+    for (i = 0; i < arr.length; i++) {
+
+        sum = sum + arr[i];
+    }
+    return (sum / arr.length);
+}
+if (sum > 100) { return true; } else { return false; }
+//10.	Write a function that takes an array of numbers and returns the average of all the elements in the array.
+function totalAvg(arr) {
+    sum = 0;
+    for (i - 0; i < arr.length; i++)
+
+        [sum = sum + arr[i];]
+    return (sum / arr.length);
+}
+//11.	Write a function that takes two arrays of numbers and returns true if the average of the elements in the first array is greater than the average of the elements in the second array.
+//12.	Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket, and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
+function buyDrink(isHotOutside, moneyInPocket); {
+    if ((isHotOutside) & (moneyInPocket > 10.50)) { return true; } else { return false; }
+}
